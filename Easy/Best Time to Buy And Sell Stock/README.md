@@ -30,4 +30,4 @@ Move through `prices`. When you find a less pricey stock, record it as minPrice.
 Each stock is processed once.
 
 ## Space Complexity - O(1)
-No variable has dynamic size.
+No data structure variables with `n` size are used.

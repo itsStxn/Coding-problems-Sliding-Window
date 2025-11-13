@@ -29,4 +29,4 @@ Make a frequency array of `s1` and compare it to the frequency of `s2` by updati
 Althogh there are notable operations like comparing arrays, those operations do not depend on `n`, rather they run at constant time. The loops used in the solution depend on `n`.
 
 ## Space Complexity - O(1)
-Variables do not have dynamic size based on `n`.
+No data structure variables with `n` size are used.
