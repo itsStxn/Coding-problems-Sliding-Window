@@ -1,0 +1,24 @@
+class Solution:
+	def checkInclusion(self, s1: str, s2: str) -> bool:
+		n1, n2 = len(s1), len(s2)
+		if n1 > n2:
+			return False
+		
+		a = ord('a')
+		freq_s1 = [0]*26
+		freq_s2 = [0]*26
+
+		for i in range(n1):
+			freq_s1[ord(s1[i]) - a] += 1
+			freq_s2[ord(s2[i]) - a] += 1
+
+		if freq_s1 == freq_s2:
+			return True
+
+		for i in range(n1, n2):
+			freq_s2[ord(s2[i - n1]) - a] -= 1
+			freq_s2[ord(s2[i]) - a] += 1
+			if freq_s1 == freq_s2:
+				return True
+
+		return False
