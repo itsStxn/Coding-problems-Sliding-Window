@@ -20,8 +20,8 @@ Return the *maximum profit you can achieve from this transaction*. If you cannot
 **Explanation**: In this case, no transactions are done and the max profit = 0.  
 
 ### Constraints
-1 <= `prices.length` <= 10^5  
-0 <= `prices[i]` <= 10^4  
+- 1 <= `prices.length` <= 10^5
+- 0 <= `prices[i]` <= 10^4  
 
 ## Strategy
 Move through `prices`. When you find a less pricey stock, record it as minPrice. Then keep subtracting the current price and minPrice to get a profit, but olny save the hightst ons as maxProfit.
