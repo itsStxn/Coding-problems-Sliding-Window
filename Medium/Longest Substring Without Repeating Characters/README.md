@@ -21,8 +21,8 @@ Given a string `s`, find the length of the longest substring without duplicate c
 - Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
 ### Constraints
-0 <= `s.length` <= 5 * 10^4  
-`s` consists of English letters, digits, symbols and spaces.
+- 0 <= `s.length` <= 5 * 10^4
+- `s` consists of English letters, digits, symbols and spaces.
 
 ## Strategy
 Read through the string and use a dicrionary to store characters and the last indexes they where seen occupying. Use `start` and `end` pointers to move through the string. If `end` finds a character that has already been seen, move `start` at the right of its last index. Then update the index as the current one. 
