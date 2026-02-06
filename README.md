@@ -3,18 +3,22 @@
 ## Difficulties
 
 ### Easy
+
 - Best Time to Buy And Sell Stock
 
 ### Medium
+
 - Longest Substring Without Repeating Characters
 - Longest Repeating Character Replacement
 - Permutation In String
 
 ### Hard
+
 - Minimum Window Substring
 - Sliding Window Maximum
 
 ## Patterns
+
 - Operates on a **contiguous subarray or substring**
 - Uses **left and right pointers**
 - Window **expands and shrinks**
