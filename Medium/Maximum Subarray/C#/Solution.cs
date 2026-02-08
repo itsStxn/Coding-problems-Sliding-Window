@@ -7,8 +7,8 @@ public class Solution {
 		int max = int.MinValue;
 		int sum = 0;
 		
-		for (int i = 0; i < nums.Length; i++) {
-			sum += nums[i];
+		foreach (int n in nums) {
+			sum += n;
 			max = Math.Max(max, sum);
 			sum = Math.Max(sum, 0);
 		}
