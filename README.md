@@ -11,6 +11,9 @@
 - Longest Substring Without Repeating Characters
 - Longest Repeating Character Replacement
 - Permutation In String
+- Minimum Size Subarray Sum
+- Maximum Sum of Distinct Subarrays With Length K
+- Maximum Subarray
 
 ### Hard
 
