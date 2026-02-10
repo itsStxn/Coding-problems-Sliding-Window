@@ -29,7 +29,7 @@ Traverse the array using a right pointer. If the numbers seen sum up to a value 
 ### Prefix Sum
 Use Prefix Sum algorithm, so create a prefix array. Prefix is sorted because of its cumulative sum nature. This condition allow to perform binary search for each index of the prefix array. The target is anything greater or equal to a `prefix[i] + target`, meaning the sum of anything before `i + the target`. Let's call the index found with binary search as `j`. This index represents a later index than i so that the target is found. Return `j - i` as the length of the subarray.  
 
-## Time Complexity - O()
+## Time Complexity
 
 ### Standard - O(n)
 Each element in `nums` is processed once on average.
@@ -37,7 +37,7 @@ Each element in `nums` is processed once on average.
 ### Prefix Sum - O(n * log n)
 Binary search is run for every sum value in the prefix array.
 
-## Space Complexity - O()
+## Space Complexity
 
 ### Standard - O(1)
 No data structures of `n` size are implemented.
