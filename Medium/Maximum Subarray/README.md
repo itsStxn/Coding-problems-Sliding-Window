@@ -32,7 +32,7 @@ Traverse the array and keep storing the sum. Reset the sum whenever it is negati
 ### Divide and conquer
 Get a mid pointer, then travers backwards from mid to the left and from mid to the right. Get the max sum to the left and to the right, then sum them together. Do this recursively to the left and right halves. The value to return is the max among the traversed sum, the left recursion and the right recursion.
 
-## Time Complexity - O(n)
+## Time Complexity
 
 ### Kadane's algorithm - O(n)
 Each number is processed once.
