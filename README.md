@@ -13,7 +13,6 @@
 - Permutation In String
 - Minimum Size Subarray Sum
 - Maximum Sum of Distinct Subarrays With Length K
-- Maximum Subarray
 
 ### Hard
 
